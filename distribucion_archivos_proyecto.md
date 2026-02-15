@@ -2,6 +2,14 @@
 
 ## Última actualización: 2026-02-15
 
+## Repositorio GitHub
+
+**URL:** https://github.com/IAcate/biblioteca-tdj-chihuahua
+**URL raw base:** `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/`
+
+Para obtener cualquier archivo, concatenar la URL raw base + nombre del archivo.
+Ejemplo: `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LGRA_2025_vigente.md`
+
 ---
 
 ## Resumen de tamaños
@@ -65,35 +73,61 @@ Estos archivos deben estar SIEMPRE en el proyecto. Son la normativa propia del T
 | # | Archivo | ~Tokens | Justificación |
 |---|---|---|---|
 | 1 | catalogo_biblioteca_juridica_tdj.md | 3,892 | Índice maestro, permite localizar cualquier documento |
-| 2 | AG_TDJ_CHIH_02_2025.md | 2,359 | Estructura de Salas del TDJ |
-| 3 | AG_TDJ_CHIH_04_2025.md | 2,619 | Comisiones del TDJ |
-| 4 | AG_TDJ_CHIH_08_2025.md | 4,190 | Recepción de denuncias — flujo principal |
-| 5 | AG_TDJ_CHIH_11_2025.md | 8,767 | Sesiones de Pleno |
-| 6 | AG_TDJ_CHIH_12_2025.md | 3,868 | Delegación a Secretarías de Sala |
-| 7 | AG_TDJ_CHIH_13_2025.md | 9,318 | Funcionamiento de Comisiones |
-| 8 | AG_TDJ_CHIH_16_2025.md | 4,145 | Procedimientos heredados del CJ |
-| 9 | AG_TDJ_CHIH_17_2025.md | 3,625 | Reanudación de plazos |
-| 10 | AG_TDJ_CHIH_19_2025.md | 10,802 | Segunda instancia |
-| 11 | AG_TDJ_CHIH_01_2026.md | 6,784 | Evaluación de juzgadores |
-| 12 | LOPJE_2025_vigente.md | 83,589 | Ley orgánica vigente — fundamento principal |
-| 13 | LGRA_2025_vigente.md | 59,573 | Ley sustantiva de responsabilidades administrativas |
-| | **Total Nivel 1** | **~203,804** | **⚠️ Excede ~200K — considerar mover AG 01/2026 a Nivel 2** |
+| 2 | distribucion_archivos_proyecto.md | ~2,500 | Guía de distribución y URLs GitHub |
+| 3 | AG_TDJ_CHIH_02_2025.md | 2,359 | Estructura de Salas del TDJ |
+| 4 | AG_TDJ_CHIH_04_2025.md | 2,619 | Comisiones del TDJ |
+| 5 | AG_TDJ_CHIH_08_2025.md | 4,190 | Recepción de denuncias — flujo principal |
+| 6 | AG_TDJ_CHIH_11_2025.md | 8,767 | Sesiones de Pleno |
+| 7 | AG_TDJ_CHIH_12_2025.md | 3,868 | Delegación a Secretarías de Sala |
+| 8 | AG_TDJ_CHIH_13_2025.md | 9,318 | Funcionamiento de Comisiones |
+| 9 | AG_TDJ_CHIH_16_2025.md | 4,145 | Procedimientos heredados del CJ |
+| 10 | AG_TDJ_CHIH_17_2025.md | 3,625 | Reanudación de plazos |
+| 11 | AG_TDJ_CHIH_19_2025.md | 10,802 | Segunda instancia |
+| 12 | AG_TDJ_CHIH_01_2026.md | 6,784 | Evaluación de juzgadores |
+| 13 | LOPJE_2025_vigente.md | 83,589 | Ley orgánica vigente — fundamento principal |
+| 14 | LGRA_2025_vigente.md | 59,573 | Ley sustantiva de responsabilidades administrativas |
+| 15 | CETICA_TSJ_2020_vigente.md | 13,841 | Código de Ética (citado en AG 08 y AG 01/2026) |
+| | **Total Nivel 1** | **~219,877** | |
+
+### Archivos que también están en el proyecto actual (Nivel 1+)
+
+Estos archivos están cargados en el proyecto actual por su alta relevancia, aunque exceden el nivel mínimo:
+
+| # | Archivo | ~Tokens | Justificación |
+|---|---|---|---|
+| 16 | CPECHIH_2024_vigente.md | 108,561 | Constitución Local (citada en 10/10 AGs) |
+| 17 | CPEUM_2025_vigente.md | 243,666 | Constitución Federal (citada en 4/10 AGs) |
+| 18 | CPECHIH_PENAL_2006_vigente.md | 173,381 | Código Penal (tipificación de delitos) |
 
 ### Archivos bajo demanda (Nivel 2) — Consultar vía GitHub con web_fetch
 
-| Archivo | ~Tokens | Cuándo consultar |
-|---|---|---|
-| CPECHIH_2024_vigente.md | 108,561 | Fundamento constitucional local (Arts. 107-109) |
-| CPEUM_2025_vigente.md | 243,666 | Fundamento constitucional federal (Arts. 108-114) |
-| LAMPARO_2025_vigente.md | 87,810 | Juicios de amparo contra resoluciones del TDJ |
-| CNPP_2025_vigente.md | 147,142 | Referencia procesal penal |
-| LTAIPECHIH_2024_vigente.md | 40,903 | Transparencia y acceso a información |
-| LPDPCHIH_2017_vigente.md | 26,565 | Protección de datos personales |
-| LEDMVLV_2024_vigente.md | 60,565 | Violencia de género |
-| AG_CJ_VIOLAB_2018_vigente.md | 7,111 | Violencia laboral y acoso |
-| CETICA_TSJ_2020_vigente.md | 13,841 | Ética y conducta |
-| PROT_VIOLENCIA_TSJ_2024_vigente.md | 10,633 | Protocolo de violencia |
-| Todos los demás | Variable | Ver catálogo para triggers específicos |
+Para consultar estos archivos, el usuario debe proporcionar la URL raw en el chat o subirlos directamente.
+
+| Archivo | ~Tokens | URL raw | Cuándo consultar |
+|---|---|---|---|
+| LAMPARO_2025_vigente.md | 87,810 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LAMPARO_2025_vigente.md` | Juicios de amparo contra resoluciones del TDJ |
+| CNPP_2025_vigente.md | 147,142 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CNPP_2025_vigente.md` | Referencia procesal penal |
+| LTAIPECHIH_2024_vigente.md | 40,903 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LTAIPECHIH_2024_vigente.md` | Transparencia y acceso a información |
+| LPDPCHIH_2017_vigente.md | 26,565 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LPDPCHIH_2017_vigente.md` | Protección de datos personales |
+| LEDMVLV_2024_vigente.md | 60,565 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LEDMVLV_2024_vigente.md` | Violencia de género |
+| AG_CJ_VIOLAB_2018_vigente.md | 7,111 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_CJ_VIOLAB_2018_vigente.md` | Violencia laboral y acoso |
+| PROT_VIOLENCIA_TSJ_2024_vigente.md | 10,633 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/PROT_VIOLENCIA_TSJ_2024_vigente.md` | Protocolo de violencia |
+| AG_CJ_RESPADM_2017_vigente.md | 4,594 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_CJ_RESPADM_2017_vigente.md` | Procedimiento anterior RA (transición) |
+| AG135_TRANSP_2008_vigente.md | 6,605 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG135_TRANSP_2008_vigente.md` | Transparencia en RA |
+| RVISIT_TSJ_2021_vigente.md | 7,028 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/RVISIT_TSJ_2021_vigente.md` | Reglamento de visitas |
+| RSESCJ_2019_vigente.md | 4,315 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/RSESCJ_2019_vigente.md` | Sesiones CJ (referencia histórica) |
+| LERCHIH_2016_vigente.md | 4,681 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LERCHIH_2016_vigente.md` | Entrega-recepción |
+| LRPJFMP_2017_vigente.md | 2,303 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LRPJFMP_2017_vigente.md` | Responsabilidad patrimonial |
+| LFT_2025_vigente.md | 319,832 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LFT_2025_vigente.md` | Conflicto laboral (uso raro) |
+| LFISCHIH_2022_vigente.md | 24,096 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LFISCHIH_2022_vigente.md` | Fiscalización |
+| LARCHIVOS_2021_vigente.md | 30,483 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LARCHIVOS_2021_vigente.md` | Archivos/documentación |
+| LOPJF_2022_vigente.md | 63,186 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJF_2022_vigente.md` | Referencia con PJF |
+| LOPJECHIH_2019_abrogada.md | 69,726 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJECHIH_2019_abrogada.md` | Referencia histórica |
+| LOPJECHIH_2014_abrogada.md | 125,775 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJECHIH_2014_abrogada.md` | Referencia histórica |
+| RLOPJE_2012_vigente.md | 26,957 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/RLOPJE_2012_vigente.md` | Reglamento LOPJE |
+| LASECHIH_2018_vigente.md | 13,917 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LASECHIH_2018_vigente.md` | Auditoría superior |
+| LSAECHIH_2018_vigente.md | 13,650 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LSAECHIH_2018_vigente.md` | Sistema anticorrupción |
+| LRSPECHIH_2018_abrogada.md | 12,469 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LRSPECHIH_2018_abrogada.md` | Régimen anterior de RA |
 
 ---
 
@@ -148,27 +182,25 @@ Los 10 acuerdos TDJ son obligatorios. El catálogo es obligatorio. Las leyes res
 
 **Total estimado:** ~434,070 tokens en 25 archivos
 
-### Archivos fuera del proyecto (subir manualmente cuando se necesiten)
+### Archivos fuera del proyecto (consultar vía GitHub o subir manualmente)
 
-Estos archivos son demasiado grandes o de uso esporádico para ocupar un slot permanente:
-
-| Archivo | ~Tokens | Cuándo subir |
-|---|---|---|
-| CPEUM_2025_vigente.md | 243,666 | Si se necesita fundamento constitucional federal |
-| LAMPARO_2025_vigente.md | 87,810 | Si hay juicio de amparo involucrado |
-| CNPP_2025_vigente.md | 147,142 | Si hay denuncia penal derivada |
-| CPECHIH_PENAL_2006_vigente.md | 173,381 | Si se necesita tipificar un delito |
-| LFT_2025_vigente.md | 319,832 | Si hay conflicto laboral (uso raro) |
-| LEDMVLV_2024_vigente.md | 60,565 | Si hay denuncia de violencia de género |
-| LFISCHIH_2022_vigente.md | 24,096 | Si hay tema de fiscalización |
-| LARCHIVOS_2021_vigente.md | 30,483 | Si hay tema de archivos/documentación |
-| LOPJF_2022_vigente.md | 63,186 | Si se necesita referencia con PJF |
-| LOPJECHIH_2019_abrogada.md | 69,726 | Si se necesita referencia histórica |
-| LOPJECHIH_2014_abrogada.md | 125,775 | Si se necesita referencia histórica |
-| RLOPJE_2012_vigente.md | 26,957 | Si se necesita reglamento LOPJE |
-| LASECHIH_2018_vigente.md | 13,917 | Si hay tema de auditoría superior |
-| LSAECHIH_2018_vigente.md | 13,650 | Si hay tema de sistema anticorrupción |
-| LRSPECHIH_2018_abrogada.md | 12,469 | Si se necesita régimen anterior de RA |
+| Archivo | ~Tokens | URL raw | Cuándo subir |
+|---|---|---|---|
+| CPEUM_2025_vigente.md | 243,666 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CPEUM_2025_vigente.md` | Si se necesita fundamento constitucional federal |
+| LAMPARO_2025_vigente.md | 87,810 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LAMPARO_2025_vigente.md` | Si hay juicio de amparo involucrado |
+| CNPP_2025_vigente.md | 147,142 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CNPP_2025_vigente.md` | Si hay denuncia penal derivada |
+| CPECHIH_PENAL_2006_vigente.md | 173,381 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CPECHIH_PENAL_2006_vigente.md` | Si se necesita tipificar un delito |
+| LFT_2025_vigente.md | 319,832 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LFT_2025_vigente.md` | Si hay conflicto laboral (uso raro) |
+| LEDMVLV_2024_vigente.md | 60,565 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LEDMVLV_2024_vigente.md` | Si hay denuncia de violencia de género |
+| LFISCHIH_2022_vigente.md | 24,096 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LFISCHIH_2022_vigente.md` | Si hay tema de fiscalización |
+| LARCHIVOS_2021_vigente.md | 30,483 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LARCHIVOS_2021_vigente.md` | Si hay tema de archivos/documentación |
+| LOPJF_2022_vigente.md | 63,186 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJF_2022_vigente.md` | Si se necesita referencia con PJF |
+| LOPJECHIH_2019_abrogada.md | 69,726 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJECHIH_2019_abrogada.md` | Si se necesita referencia histórica |
+| LOPJECHIH_2014_abrogada.md | 125,775 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJECHIH_2014_abrogada.md` | Si se necesita referencia histórica |
+| RLOPJE_2012_vigente.md | 26,957 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/RLOPJE_2012_vigente.md` | Si se necesita reglamento LOPJE |
+| LASECHIH_2018_vigente.md | 13,917 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LASECHIH_2018_vigente.md` | Si hay tema de auditoría superior |
+| LSAECHIH_2018_vigente.md | 13,650 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LSAECHIH_2018_vigente.md` | Si hay tema de sistema anticorrupción |
+| LRSPECHIH_2018_abrogada.md | 12,469 | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LRSPECHIH_2018_abrogada.md` | Si se necesita régimen anterior de RA |
 
 ---
 
@@ -180,8 +212,10 @@ Estos archivos son demasiado grandes o de uso esporádico para ocupar un slot pe
 
 3. **La LGRA (~60K tokens) es la segunda prioridad** — regula las faltas administrativas que el TDJ substancia y resuelve.
 
-4. **Para Claude Projects**, los 13 archivos de Nivel 1 (~204K tokens) exceden ligeramente los ~200K de contexto. Si es necesario ajustar, mover AG_TDJ_CHIH_01_2026.md (~6.8K tokens) a Nivel 2 reduce el total a ~197K tokens. Alternativa: la distribución real depende del tokenizador (estimación conservadora de 4 bytes/token).
+4. **El CETICA (~14K tokens) se agregó al Nivel 1** — citado en AG 08/2025 y AG 01/2026, y listado en el marco normativo del acuerdo de evaluación de desempeño judicial.
 
-5. **Para ChatGPT Projects**, los 25 archivos recomendados cubren normativa propia + leyes más citadas + normativa complementaria de uso frecuente. Los archivos más grandes (CPEUM, Código Penal, LFT) se suben solo cuando se necesitan.
+5. **Todos los archivos están disponibles en GitHub:** https://github.com/IAcate/biblioteca-tdj-chihuahua — Para consultar un archivo que no esté en el proyecto, proporcionar la URL raw al asistente o subir el archivo directamente al chat.
 
-6. **Verificar periódicamente** si hay nuevos acuerdos del TDJ o reformas legislativas que requieran actualizar la biblioteca.
+6. **Para usar web_fetch con GitHub:** El usuario debe proporcionar la URL raw directa en el chat (ej: `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/NOMBRE_ARCHIVO.md`). Alternativa: conectar el MCP Server de GitHub vía Claude Code o Cowork para acceso directo sin restricciones de URL.
+
+7. **Verificar periódicamente** si hay nuevos acuerdos del TDJ o reformas legislativas que requieran actualizar la biblioteca.

@@ -4,10 +4,56 @@
 
 ## Cómo usar este catálogo
 
-Este catálogo lista todos los documentos jurídicos disponibles para consulta del Tribunal de Disciplina Judicial del Poder Judicial del Estado de Chihuahua. Los documentos están publicados en: `https://github.com/[PENDIENTE]/biblioteca-tdj-chihuahua`
+Este catálogo lista todos los documentos jurídicos disponibles para consulta del Tribunal de Disciplina Judicial del Poder Judicial del Estado de Chihuahua. Los documentos están publicados en: `https://github.com/IAcate/biblioteca-tdj-chihuahua`
 
 **Instrucción para el asistente:** Cuando necesites consultar una ley o documento que NO esté cargado en el proyecto, usa web_fetch para obtenerlo desde:
-`https://raw.githubusercontent.com/[PENDIENTE]/biblioteca-tdj-chihuahua/main/[nombre_archivo]`
+`https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/[nombre_archivo]`
+
+**Nota técnica:** Para que web_fetch funcione, el usuario debe proporcionar la URL raw directa en el chat, o la URL debe aparecer en resultados de búsqueda. Si no es posible usar web_fetch, indicar al usuario que pegue la URL raw del archivo o que lo suba directamente al chat.
+
+**URLs raw de todos los archivos:**
+
+| Archivo | URL raw |
+|---|---|
+| AG_TDJ_CHIH_02_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_02_2025.md` |
+| AG_TDJ_CHIH_04_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_04_2025.md` |
+| AG_TDJ_CHIH_08_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_08_2025.md` |
+| AG_TDJ_CHIH_11_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_11_2025.md` |
+| AG_TDJ_CHIH_12_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_12_2025.md` |
+| AG_TDJ_CHIH_13_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_13_2025.md` |
+| AG_TDJ_CHIH_16_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_16_2025.md` |
+| AG_TDJ_CHIH_17_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_17_2025.md` |
+| AG_TDJ_CHIH_19_2025.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_19_2025.md` |
+| AG_TDJ_CHIH_01_2026.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_TDJ_CHIH_01_2026.md` |
+| CPEUM_2025_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CPEUM_2025_vigente.md` |
+| CPECHIH_2024_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CPECHIH_2024_vigente.md` |
+| LOPJE_2025_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJE_2025_vigente.md` |
+| LOPJECHIH_2019_abrogada.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJECHIH_2019_abrogada.md` |
+| LOPJECHIH_2014_abrogada.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJECHIH_2014_abrogada.md` |
+| LGRA_2025_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LGRA_2025_vigente.md` |
+| CNPP_2025_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CNPP_2025_vigente.md` |
+| CPECHIH_PENAL_2006_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CPECHIH_PENAL_2006_vigente.md` |
+| LAMPARO_2025_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LAMPARO_2025_vigente.md` |
+| LTAIPECHIH_2024_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LTAIPECHIH_2024_vigente.md` |
+| LPDPCHIH_2017_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LPDPCHIH_2017_vigente.md` |
+| LEDMVLV_2024_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LEDMVLV_2024_vigente.md` |
+| LFISCHIH_2022_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LFISCHIH_2022_vigente.md` |
+| LARCHIVOS_2021_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LARCHIVOS_2021_vigente.md` |
+| LFT_2025_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LFT_2025_vigente.md` |
+| LASECHIH_2018_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LASECHIH_2018_vigente.md` |
+| LSAECHIH_2018_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LSAECHIH_2018_vigente.md` |
+| LERCHIH_2016_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LERCHIH_2016_vigente.md` |
+| LRPJFMP_2017_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LRPJFMP_2017_vigente.md` |
+| LRSPECHIH_2018_abrogada.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LRSPECHIH_2018_abrogada.md` |
+| LOPJF_2022_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/LOPJF_2022_vigente.md` |
+| RLOPJE_2012_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/RLOPJE_2012_vigente.md` |
+| RSESCJ_2019_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/RSESCJ_2019_vigente.md` |
+| RVISIT_TSJ_2021_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/RVISIT_TSJ_2021_vigente.md` |
+| AG135_TRANSP_2008_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG135_TRANSP_2008_vigente.md` |
+| AG_CJ_RESPADM_2017_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_CJ_RESPADM_2017_vigente.md` |
+| AG_CJ_VIOLAB_2018_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/AG_CJ_VIOLAB_2018_vigente.md` |
+| CETICA_TSJ_2020_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/CETICA_TSJ_2020_vigente.md` |
+| PROT_VIOLENCIA_TSJ_2024_vigente.md | `https://raw.githubusercontent.com/IAcate/biblioteca-tdj-chihuahua/main/PROT_VIOLENCIA_TSJ_2024_vigente.md` |
 
 ---
 
@@ -70,17 +116,14 @@ Este catálogo lista todos los documentos jurídicos disponibles para consulta d
 **Consultar cuando:** se pregunte sobre atribuciones, organización o procedimientos del TDJ. **Ley orgánica vigente y fundamento principal.** Citada en los 10 acuerdos TDJ.
 
 ### LOPJECHIH_2019_abrogada.md | LOPJE 2019 (Abrogada) | ~70K tokens
-**Consultar cuando:** se necesite referencia histórica sobre la estructura anterior del PJ o del Consejo de la Judicatura para procedimientos heredados.
+**Consultar cuando:** se necesite referencia a la ley orgánica inmediata anterior para procedimientos en transición o interpretación histórica.
 
 ### LOPJECHIH_2014_abrogada.md | LOPJE 2014 (Abrogada) | ~126K tokens
-**Consultar cuando:** se necesite referencia histórica sobre estructura del PJ antes de 2019.
-
-### LOPJF_2022_vigente.md | Ley Orgánica del Poder Judicial de la Federación | ~63K tokens
-**Consultar cuando:** se necesite referencia comparativa con el Tribunal de Disciplina Judicial federal o el CJF.
+**Consultar cuando:** se necesite referencia histórica sobre la organización del PJ bajo el régimen anterior al CJ.
 
 ---
 
-## SECCIÓN 3: Legislación Procesal y Sustantiva
+## SECCIÓN 3: Legislación Sustantiva y Procesal
 
 ### LGRA_2025_vigente.md | Ley General de Responsabilidades Administrativas | ~60K tokens
 **Artículos relevantes para TDJ:** Título Tercero (faltas administrativas no graves y graves), Art. 93 (requisitos de denuncia), Arts. 100-154 (procedimiento de RA), Arts. 208-210 (sanciones).
